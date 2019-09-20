@@ -12,6 +12,7 @@ class HomeController extends Controller
 {
     public function index(Content $content)
     {
+        //$content->row('hello');
         return $content
             ->title('Dashboard')
             ->description('Description...')

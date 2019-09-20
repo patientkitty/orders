@@ -15,4 +15,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-$router->resource('users', UserController::class);
