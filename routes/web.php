@@ -15,3 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/input','TestController@inputview')->name('input');
+Route::get('/test','TestController@testview')->name('test');
+Route::get('/plist','TestController@getProductList');
